@@ -125,15 +125,15 @@ if [[ "$resposta" = '1' ]]; then
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main//Install/versao >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/botteste.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Modulos/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Modulos/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
     mkdir $HOME/BOT >/dev/null 2>&1
     cd $HOME/BOT
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Modulos/ShellBot.sh >/dev/null 2>&1
     chmod 777 ShellBot.sh >/dev/null 2>&1
     cd >/dev/null 2>&1
     #-----------------------------------------------------------------------------------------------------------------
@@ -145,7 +145,7 @@ sleep 2s
         system=$(cat /etc/issue.net)
         date=$(date '+%Y-%m-%d <> %H:%M:%S')
         echo -e "\033[1;37m $system                          $date"
-        figlet "SSH-PLUS" | lolcat
+        figlet "RAIO MANAGER" | lolcat
         echo "SCRIPT EM DESENVOLVIMENTO !!" 
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
         echo -e "\033[1;33mOPA DETECTAMOS..."
@@ -233,7 +233,7 @@ sleep 2s
     echo 'echo -e " SERVIDOR LIGADO À : $(uptime -p)"' >>/root/.bashrc
     echo 'echo -e " DATA : $DATE"' >>/root/.bashrc
     echo 'echo -e " HORA : $TIME"' >>/root/.bashrc
-    echo 'echo -e "@ALFAINTERNET"' >>.bashrc
+    echo 'echo -e "RAIO MANAGER"' >>.bashrc
     echo 'echo -e "\033[1;31m DIGITE ( menu ) PARA ENTRAR\033[0m."' >>/root/.bashrc
     echo 'echo -e ""' >>/root/.bashrc
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
@@ -253,15 +253,15 @@ elif [[ "$resposta" = '2' ]]; then
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Install/versao >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/botteste.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Modulos/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Modulos/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
     mkdir $HOME/BOT >/dev/null 2>&1
     cd $HOME/BOT
-    wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/eVPNPRO/raioplus/main/Modulos/ShellBot.sh >/dev/null 2>&1
     chmod 777 ShellBot.sh >/dev/null 2>&1
     cd >/dev/null 2>&1
     #-----------------------------------------------------------------------------------------------------------------
@@ -273,7 +273,7 @@ elif [[ "$resposta" = '2' ]]; then
         system=$(cat /etc/issue.net)
         date=$(date '+%Y-%m-%d <> %H:%M:%S')
         echo -e "\033[1;37m $system                          $date"
-        figlet "SSH-PLUS" | lolcat
+        figlet "RAIO MANAGER" | lolcat
         echo "SCRIPT EM DESENVOLVIMENTO !!" 
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
         echo -e "\033[1;33mOPA DETECTAMOS..."
